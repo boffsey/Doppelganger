@@ -1,0 +1,17 @@
+{
+  // If you went through the "Realtime Database Security Rules" step.
+  "database": {
+    "Rules": "database-rules.json"
+  },
+  "storage": {
+    "Rules": "storage.rules"
+  },
+  "hosting": {
+    "public": "./",
+    "ignore": [
+      "firebase.json",
+      "database-rules.json",
+      "storage.rules"
+    ]
+  }
+}
